@@ -1,20 +1,20 @@
 <template lang="pug">
   .app
-    fork-this
+    //- fork-this
     .main
-      navbar
+      //- navbar
       nuxt
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
-import Navbar from '@/components/partials/Example/Navbar.vue'
-import ForkThis from '@/components/partials/Example/ForkThis.vue'
+// import Navbar from '@/components/partials/Example/Navbar.vue'
+// import ForkThis from '@/components/partials/Example/ForkThis.vue'
 
 @Component({
   components: {
-    ForkThis,
-    Navbar
+    // ForkThis,
+    // Navbar
   }
 })
 export default class DefaultLayout extends Vue {}

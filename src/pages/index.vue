@@ -1,30 +1,36 @@
 <template lang="pug">
 section.container
   div
-    Logo
-    HelloWorld
+    //- Logo
+    //- HelloWorld
+    img(src="~/assets/images/haruhi01.jpg")
     h1.title
-      | typescript-nuxtjs
+      | Yuutsu Records
     h2.subtitle
-      | My gnarly Nuxt.js project
+      | 憂鬱レコーズ
     .links
-      a.button--green(href='https://nuxtjs.org/' target='_blank')
-        | Documentation
-      a.button--grey(href='https://github.com/nuxt/nuxt.js' target='_blank')
-        | GitHub
+      //- a.button--green(href='https://nuxtjs.org/' target='_blank')
+      //-   | Documentation
+      //- a.button--grey(href='https://github.com/nuxt/nuxt.js' target='_blank')
+      //-   | GitHub
+      p Established by&nbsp;
+        a(href="https://www.twitter.com/silloi93") silloi
+        | &nbsp;on&nbsp;
+        a(href="https://twitter.com/silloi93/status/1225963326603051010") 2020. 2. 8
+        | .
 </template>
 
 <script lang="ts">
-import Logo from '@/components/partials/Example/Logo.vue'
+// import Logo from '@/components/partials/Example/Logo.vue'
 
 // Dynamic Import
 // import HelloWorld from '@/components/HelloWorld.vue'
-const HelloWorld = () => import('@/components/partials/Example/HelloWorld.vue')
+// const HelloWorld = () => import('@/components/partials/Example/HelloWorld.vue')
 
 export default {
   components: {
-    Logo,
-    HelloWorld
+    // Logo,
+    // HelloWorld
   }
 }
 </script>
