@@ -3,7 +3,7 @@ section.container
   div
     //- Logo
     //- HelloWorld
-    img(src="~/assets/images/haruhi01.jpg")
+    img(class="billboard" src="~/assets/images/haruhi01.jpg")
     h1.title
       | Yuutsu Records
     h2.subtitle
@@ -65,5 +65,11 @@ export default {
 
 .links {
   padding-top: 15px;
+}
+
+.billboard {
+  height: 356px;
+  width: 630px;
+  padding-bottom: 24px;
 }
 </style>
