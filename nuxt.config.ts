@@ -168,6 +168,7 @@ const config: NuxtConfiguration = {
     { src: '@/plugins/example/mode-client.ts', mode: 'client' },
     { src: '@/plugins/example/mode-server.ts', mode: 'server' },
     { src: '@/plugins/example/exec-example.ts' },
+    { src: '~plugins/ga.js', mode: 'client' },
     '@/plugins/libraries/axios.ts'
   ],
 
