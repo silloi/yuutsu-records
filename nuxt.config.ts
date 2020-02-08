@@ -119,7 +119,8 @@ const config: NuxtConfiguration = {
    */
   head: {
     // title でカスタムパラメータを使う場合
-    titleTemplate: `%s - ${pkg.name}`,
+    // titleTemplate: `%s - ${pkg.name}`,
+    titleTemplate: '%s - Yuutsu Records',
     meta: [
       { charset: 'utf-8' },
       {

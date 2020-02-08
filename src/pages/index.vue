@@ -21,16 +21,14 @@ section.container
 </template>
 
 <script lang="ts">
-// import Logo from '@/components/partials/Example/Logo.vue'
+import { Component, Vue } from 'nuxt-property-decorator'
 
-// Dynamic Import
-// import HelloWorld from '@/components/HelloWorld.vue'
-// const HelloWorld = () => import('@/components/partials/Example/HelloWorld.vue')
-
-export default {
-  components: {
-    // Logo,
-    // HelloWorld
+@Component
+export default class Index extends Vue {
+  public head() {
+    return {
+      title: this.$t('text.home.title')
+    }
   }
 }
 </script>
