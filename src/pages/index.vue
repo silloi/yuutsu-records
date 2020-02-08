@@ -68,8 +68,8 @@ export default {
 }
 
 .billboard {
-  height: 356px;
   width: 630px;
+  height: 356px;
   padding-bottom: 24px;
 }
 </style>
