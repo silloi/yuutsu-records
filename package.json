@@ -1,8 +1,8 @@
 {
-  "name": "typescript-nuxtjs-boilerplate",
+  "name": "yuutsu-records",
   "private": true,
   "version": "0.1.0",
-  "description": "Nuxt.js with TypeScript and Run with docker and docker-compose",
+  "description": "The Website of Yuutsu Records",
   "scripts": {
     "local": "npm run dev",
     "dev": "cross-env NODE_ENV=development BUILD_ENV=local nuxt-ts",

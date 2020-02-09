@@ -128,7 +128,12 @@ const config: NuxtConfiguration = {
         name: 'viewport',
         content: 'width=device-width, initial-scale=1'
       },
-      { hid: 'description', name: 'description', content: pkg.description }
+      { hid: 'description', name: 'description', content: pkg.description },
+      { hid: 'og:site_name', name: 'og:site_name', content: 'Yuutsu Records' },
+      { hid: 'twitter:site', name: 'twitter:site', content: 'silloi93' },
+      { hid: 'og:type', name: 'og:type', content: 'website' },
+      { hid: 'og:title', name: 'og:title', content: 'Yuutsu Records' },
+      { hid: 'og:description', name: 'og:description', content: '憂鬱レコーズ' }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
